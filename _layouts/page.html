@@ -12,10 +12,15 @@ layout: default
                     <!--<hr class="small">-->
                     <span id="subheading_span" class="subheading"></span>
                     <script>
-                        function set_span_text(t) {
+			function request() {
+				url = 'https://favqs.com/api/qotd';
+				fetch(url).then(res => res.json()).then(json => console.log(json));
+			}
+                        function set_subheading_text(t) {
                             document.getElementById("subheading_span").innerText = t;
                         }
-			set_span_text("script test. Thinking will not overcome fear but action will.TEST");
+			request();
+			set_subheading_text("script test");
 		    </script>
                 </div>
             </div>
