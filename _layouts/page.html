@@ -4,24 +4,18 @@ layout: default
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <script>
-        function test() {
-            return "script test. Thinking will not overcome fear but action will.TEST";
-        }
-    </script>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading"> 
-                        <script>
-                            function test() {
-                                return "script test. Thinking will not overcome fear but action will.TEST";
-                            }
-                        </script>
-                    </span>
+                    <span id="subheading_span" class="subheading"></span>
+                    <script>
+                        function test() {
+                            document.getElementById("subheading_span").innerText = "script test. Thinking will not overcome fear but action will.TEST";
+                        }
+                    </script>
                 </div>
             </div>
         </div>
