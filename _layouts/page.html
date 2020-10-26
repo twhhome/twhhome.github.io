@@ -19,7 +19,7 @@ layout: default
 				url = 'https://favqs.com/api/qotd';
 				fetch(url)
 					.then(res => res.json())
-					.then(json => set_subheading_text(json.quote.body));
+					.then(json => set_subheading_text(json.quote.body + " - " + json.quote.author));
 			}
 			request();
 		    </script>
