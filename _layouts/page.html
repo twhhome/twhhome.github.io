@@ -10,19 +10,23 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span id="subheading_span" class="subheading"></span>
-                    <script>
-			function set_subheading_text(t) {
-                            document.getElementById("subheading_span").innerText = t;
-                        }
-			function request() {
-				url = 'https://favqs.com/api/qotd';
-				fetch(url)
-					.then(res => res.json())
-					.then(json => set_subheading_text(json.quote.body + " - " + json.quote.author));
-			}
-			request();
-		    </script>
+		    {% if page.description %}
+		    	<span class="subheading">{{ page.description }}</span>
+		    {% else %}
+		    	<span id="subheading_span" class="subheading"></span>
+                    	<script>
+				function set_subheading_text(t) {
+                            	document.getElementById("subheading_span").innerText = t;
+                        	}
+				function request() {
+					url = 'https://favqs.com/api/qotd';
+					fetch(url)
+						.then(res => res.json())
+						.then(json => set_subheading_text(json.quote.body + " - " + json.quote.author));
+				}
+				request();
+		    	</script>
+		    {% endif %}
                 </div>
             </div>
         </div>
