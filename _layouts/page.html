@@ -10,7 +10,7 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">{{ "Thinking will not overcome fear but action will.TEST" }}</span>
+                    <span class="subheading">{{ test() }}</span>
                 </div>
             </div>
         </div>
@@ -204,3 +204,9 @@ layout: default
         {% endif %}
 	</div>
 </div>
+
+<script>
+	function test() {
+		return "script test. Thinking will not overcome fear but action will.TEST";
+	}
+</script>
