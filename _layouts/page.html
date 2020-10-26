@@ -12,16 +12,16 @@ layout: default
                     <!--<hr class="small">-->
                     <span id="subheading_span" class="subheading"></span>
                     <script>
-			function request() {
-				url = 'https://favqs.com/api/qotd';
-				var a = fetch(url).then(res => res.json());
-				console.log(a);
-			}
-                        function set_subheading_text(t) {
+			function set_subheading_text(t) {
                             document.getElementById("subheading_span").innerText = t;
                         }
+			function request() {
+				url = 'https://favqs.com/api/qotd';
+				fetch(url)
+					.then(res => res.json())
+					.then(json => set_subheading_text(json.quote.body));
+			}
 			request();
-			set_subheading_text("script test");
 		    </script>
                 </div>
             </div>
