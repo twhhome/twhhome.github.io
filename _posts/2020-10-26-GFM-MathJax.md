@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      在GFM(Github Favored Markdown)中使用MathJax               # 标题 
+title:      在GFM中使用MathJax               # 标题 
 date:       2020-10-26              # 时间
 author:     twhhome                      # 作者
 header-img: img/post-bg-github-cup.jpg    #这篇文章标题背景图片
