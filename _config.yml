@@ -1,13 +1,13 @@
 # Site settings
-title: TWHHOME
+title: TWHHOME BLOG
 SEOTitle: twhhome's blog
-header-img: img/post-bg-desk.jpg
+header-img: img/home-bg.jpg
 email: twhhome@foxmail.com
 description: "A SJTU Undergraduate Student"
 keyword: "TWHHOME, twhhome, twhhome's blog"
 url: "http://twhhome.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/twhhome/twhhome.github.io.git" # you code repository
 
 ga_track_id: 'UA-135923825-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto
