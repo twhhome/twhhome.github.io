@@ -3,9 +3,13 @@ layout:     post                    # 使用的布局（不需要改）
 title:      在GFM中使用MathJax               # 标题 
 date:       2020-10-27              # 时间
 author:     twhhome                      # 作者
-header-img: img/post-bg-github-cup.jpg    #这篇文章标题背景图片
+header-img: img/post-bg-gfm-mathjax.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
-
+tags:                               #标签
+    - GFM
+    - Markdowm
+    - Latex
+    - MathJax
 
 ---
 
@@ -21,7 +25,7 @@ catalog: true                       # 是否归档
     </script>
 </head>
 
-# 方法1
+# 方法
 
 在md文件开头加入如下代码：
 ```
