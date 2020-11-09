@@ -35,6 +35,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  math_engine: null
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
