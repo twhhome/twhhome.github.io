@@ -43,3 +43,20 @@ The second transition TrSL in Fig. 1.2(b) occurred in the free shear layers. The
 The third transition reaches the boundary layers at separation in Fig. 1.2(c). Subsequent researchers gradually revealed an extremely complicated interaction between separation and transition, resulting in different flow structures until finally the boundary layer became fully turbulent before the separation line.
 
 The transition in boundary layers continues to move towards the stagnation point with rising \\(Re\\) as sketched in Fig. 1.2(d). At the upper end of TrBL, the transition reaches the retarded region and this is the end of the third and final transition because all regions of the disturbed flow are fully turbulent. It may be re-interated that laminar and fully turbulent states of flow past circular cylinders are separated by three distinct transition states taking place sequentially in the different disturbed regions.
+
+# 1.3 Governing and influencing parameters
+The Reynolds number \\(Re\\) has been singled out as the _governing_ parameter for idealized _disturbance-free_ flow around a _nominally_ two-dimensional cylinder. When a given _influencing_ parameter exceeds a certain magnitude it may become the _governing_ parameter in some transition states. 
+
+However, when an influencing parameter becomes a governing one it cannot be precisely defined. Sarpkaya(1983) points out that what may be an influencing parameter for a given set of governing parameters could be a governing parameter for another set of governing parameters.
+
+![fig1.3](/img/flow-past-circular-cylinder/fig1.3.jpg)
+
+Some typical examples of the most frequently encountered influencing parameters are irregular, steady and periodic disturbances. The most common disturbance in all practical applications is _free stream turbulance_, Fig. 1.3(a). It is described by the intensity \\(Ti\\), scale \\(Ts\\) and frequency spectrum FS of random three-dimensional fluctuations of velocity. The free stream turbulance strongly affects all three transitions in the disturbed regions.
+
+Another kind of irregular disturbance which is important for most practical applications is _surface roughness_, Fig. 1.3(b). This is characterized by at least two influencing parameters: relative size of roughness \\(K/D\\) and its texture. 
+
+An additional steady disturbance occurs in most experiments and it is not present in applications. That is the wall _blockage_. The confining walls of wind and water tunnels shown in Fig. 1.3(c) restrict the disturbed flow sidewise and impose an additional pressure gradient. For large blockage ratios, the transitions in both the boundary and free shear layers may be affected. An asymmetric 'blockage' is induced by the vicinity of a single boundary, Fig. 1.3(d). For small gap to diameter ratios, \\(G/D\\) may become a governing parameter.
+
+A disguised kind of disturbance is the _end effect_. In most tests both ends of the cylinder penetrate the boundary layers of the side walls as shown in Fig. 1.3(e) and the ensuing interaction affects the flow along the span of the cylinder. The _aspect ratio_ \\(L/D\\) is an ever-present influencing parameter in the simulation of a 'nominally' two-dimensional cylinder. The aspect ratio becomes a governing parameter for a short finite cylinder with a free end, see Fig. 1.3(f).
+
+A powerful disturbance which is capable of overriding all other disturbances is the transvers or streamwise oscillation of the cylinder beyond a threshold amplitude, Fig. 1.3(g) and Fig. 1.3(h), respectively. The amplitude and frequency of either free or forced oscillations may become the governing parameters within a certain range of the free stream velocity.
