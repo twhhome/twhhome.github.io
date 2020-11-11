@@ -22,3 +22,24 @@ Figure 1.1 shows the division of the disturbed flow field into four regions:
 ![fig1.1](/img/flow-past-circular-cylinder/fig1.1.jpg)
 
 The unexpectedly high fluctuations in velocity are found in the upstream retarded flow region, which significantly increase local heat transfer. The inherently unstable retarded flow forms unsteady flow structures in a streamline direction.
+
+The boundary layers around the cylinder are subjected to a favourable pressure gradient followed by a small region of adverse pressure gradient before separation. The separated boundary layers continue to develop downstream as _fre shear layers_ abd they initially border the _near-wake_.
+
+The displaced flow is vigorously entrained by the low pressure in the wake. The extent of the displaced region is strongly affected by the vicinity of confining walls of wind or water tunnels known as the _blockage effect_.
+
+Large flow structures are formed in the near-wake and gradually decay along the wake. The formation and decay of the flow structures in the wake depend on the state of flow which may be laminar, transitional, or turbulent.
+
+# 1.2 Transition in disturbed regions
+Figure 1.2 shows the development of transitions with \\(Re\\) in three disturbed regions: wake(TrW), shear layers(TrSL) and boundary layers(TrBL).
+
+![fig1.2](/img/flow-past-circular-cylinder/fig1.2.jpg)
+
+Each transition is sensitive to very small disturbances of various kinds. The disturbances can initiate transitions at a lower \\(Re\_c\\) and sometimes may significantly modify the resulting flow structures. This means that \\(Re\\) is expected to be a single _governing_ parameter only for the _disturbance-free_ flow around cylinders.
+
+The first transition TrW sketched in Fig. 1.2(a) occurred in the wake, and was discovered in the range of \\(Re\\) one order of magnitude lower than in pipe flow experiments. Turbulance gradually developed and spread all along the wake, but the free shear layers bordering the near-wake remained laminar.
+
+The second transition TrSL in Fig. 1.2(b) occurred in the free shear layers. The transition region moved with increasing \\(Re\\) along the free shear layers towards the separation and affected the length and width of the near-wake.
+
+The third transition reaches the boundary layers at separation in Fig. 1.2(c). Subsequent researchers gradually revealed an extremely complicated interaction between separation and transition, resulting in different flow structures until finally the boundary layer became fully turbulent before the separation line.
+
+The transition in boundary layers continues to move towards the stagnation point with rising \\(Re\\) as sketched in Fig. 1.2(d). At the upper end of TrBL, the transition reaches the retarded region and this is the end of the third and final transition because all regions of the disturbed flow are fully turbulent. It may be re-interated that laminar and fully turbulent states of flow past circular cylinders are separated by three distinct transition states taking place sequentially in the different disturbed regions.
