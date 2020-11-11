@@ -68,15 +68,15 @@ The state of flow may be fully laminar L, any one of the three transitions TrW, 
 
 # 1.5 Laminar state of flow, L
 There are at least three basic flow regimes:
-* L1: 'creeping' flow or _non-separation_ regime; \\(0<Re<4;to;5\\)
-* L2: steady separation or _closed near-wake_ regime; \\(4;to;5<Re<30;to;48\\)
-* L3: _periodic laminar_ regime; \\(30;to;48<Re<180;to;200\\)
+* L1: 'creeping' flow or _non-separation_ regime; \\(0<Re<4\;to\;5\\)
+* L2: steady separation or _closed near-wake_ regime; \\(4\;to\;5<Re<30\;to\;48\\)
+* L3: _periodic laminar_ regime; \\(30\;to\;48<Re<180\;to\;200\\)
 
 Creeping flow as seen in Fig. 1.4 is firmly attached to the surface of the cylinder all around the circumference. The trail of steady and symmetric laminar shear layers does not form a visible wake in the non-separation regime.
 
 ![fig1.4](/img/flow-past-circular-cylinder/fig1.4.jpg)
 
-Separation initiates at \\(Re=4;to;5\\), when a distinct, steady, symmetric, and _closed near-wake_ is formed, as seen in Fig. 1.5. The free shear layers meet at the end of the near-wake at the confluence point. The reverse velocity along the axis of the near-wake is usually one order of magnitude lower than the free stream velocity. This weak recirculating flow in the near-wake is known as Föppl's twin _vortices_.
+Separation initiates at \\(Re=4\;to\;5\\), when a distinct, steady, symmetric, and _closed near-wake_ is formed, as seen in Fig. 1.5. The free shear layers meet at the end of the near-wake at the confluence point. The reverse velocity along the axis of the near-wake is usually one order of magnitude lower than the free stream velocity. This weak recirculating flow in the near-wake is known as Föppl's twin _vortices_.
 
 ![fig1.5](/img/flow-past-circular-cylinder/fig1.5.jpg)
 
