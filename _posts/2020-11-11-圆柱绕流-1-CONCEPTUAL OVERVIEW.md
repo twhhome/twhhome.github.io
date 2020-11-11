@@ -7,6 +7,7 @@ header-img: img/post-bg-cylinder-flow-1.png    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 流体力学
+    - 圆柱绕流
 
 ---
 
@@ -128,3 +129,6 @@ The asymmetric single=bubble regime, TrBL1, terminates at higher \\(Re\\) with y
 Further increase in \\(Re\\) brings transition to the primary laminar separation line in an irregular manner. This leads to the disruption and fragmentation of separation bubbles along the span of the cylinder. The irregularly fragmented separation lines prevent periodic eddy shedding, as seen in Fig. 1.10(d). The latter is the main feature of the _super-critical regime_, TrBL3.
 
 Roshko(1961) discovered that regular eddy shedding reappears at higher \\(Re\\) when the boundary layers are turbulent before separation all along the span. It is called _postcritical regime_. The postcritical TrBL4 regime is characterized by the transition in boundary layers being somewhere between the stagnation and separation lines. As \\(Re\\) increases the transition region advances towards the stagnation line asymptotically and hence the value of \\(Re\\) for the upper end of TrBL4 is hard to define.
+
+# 1.9 Fully trubulent state of flow, T
+This state of flow is reached when all disturbed flow regions around the cylinder are turbulent. The flow past the cylinder in the T-state, and the associated drag and eddy shedding, are expected to be invariant provided that the influencing parameters are kept small. However, this becomes hardly possible because compressibility effects in air and cavitation in water cannot be avoided at very high \\(Re\\) and they become governing parameters.
