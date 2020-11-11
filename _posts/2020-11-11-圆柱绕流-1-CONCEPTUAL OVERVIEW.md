@@ -87,3 +87,44 @@ The elongated closed near-wake becomes unstable for \\(Re>30-48\\) and a sinusoi
 ![fig1.7](/img/flow-past-circular-cylinder/fig1.7.jpg)
 
 The procession of eddies in the laminar wake is called the _Kármán-Bénard eddy street_. The phenomenon is an instability of the laminar wake as suggest by Kovasznay(1949).
+
+# 1.6 Transition-in-wake state of flow, TrW
+The laminar periodic wake becomes unnstable at higher \\(Re\\) farther downstream in the wake as seen in Fig. 1.8(a). Gradually transition spreads upstream with increasing \\(Re\\), until the eddy becomes turbulent during its formation, Fig. 1.8(b).
+
+![fig1.8](/img/flow-past-circular-cylinder/fig1.8.jpg)
+
+Transition-in-wake state can be divided into two regimes:
+* TrW1: transition of laminar eddies in the wake from \\((180-200)<Re<(220-250)\\)
+* TrW2: transition of an irregular eddy during its formation; from \\((220-250)<Re<(350-400)\\)
+
+Another important phenomenon takes place between TrW1 and TrW2 regimes. The laminar wake instability mode of eddy formation and shedding is replaced by the turbulent eddy roll up and shedding mode from the cylinder. The change of the eddy shedding mode is reflected by the different variation inshedding frequency expressed through a non-dimensional Strouhal number \\(St\\).
+
+# 1.7 Transition-in-shear-layers, TrSL, or Subcritical state
+The second transition takes place along the free shear layers while the boundary layers remain fully laminar. There are three phases of transition along the free-shear layers:
+* TrSL1: development of transition waves; \\((350-400)<Re<(1k-2k)\\)
+* TrSL2: formation of transition eddies; \\((1k-2k)<Re<(20k-40k)\\)
+* TrSL3: burst to turbulence; \\((20k-40k)<Re<(100k-200k)\\)
+
+The transition waves appear first as undulations of the free shear layers in Fig. 1.9(a). As \\(Re\\) increases the transition waves roll up into discrete eddies along the free shear layer before becoming turbulent and then roll up in alternate eddies, Fig. 1.9(b). Finally a sudden burst to turbulence occurs in the free shear layers near the side of the cylinder and the formation of eddies takes place close to the rear of the cylinder, Fig. 1.9(c).
+
+![fig1.9](/img/flow-past-circular-cylinder/fig1.9.jpg)
+
+# 1.8 Transition-in-boundary-layers, TrBL, or Critical state
+The following names for the new regimes are suggested:
+* TrBL0: precritical regime; \\((100k-200k)<Re<(300k-340k)\\)
+* TrBL1: one-bubble regime; \\((300k-340k)<Re<(380k-400k)\\)
+* TrBL2: two-bubble regime; \\((380k-400k)<Re<(0.5M-1M)\\)
+* TrBL3: supercritical regime; \\((0.5M-1M)<Re<(3.4M-6M)\\)
+* TrBL4: post-critical regime; \\((3.5M-6M)<Re<(unknown)\\)
+
+![fig1.10](/img/flow-past-circular-cylinder/fig1.10.jpg)
+
+The _precritical regime_ is characterized by the first onset of transition in free shear layers along separation lines. The inherent three-dimensionality of the onset of the transition disturbed the near-wake and delayed the eddy formation in Fig. 1.10(a) as opposed to Fig. 1.9(b). This resulted in an initial fall in the drag coefficient while the eddy shedding remained prominent as seen in Fig. 1.10(a).
+
+The precritical regime, TrBL0, terminates abruptly at certain \\(Re\\) with a discontinuous fall in the drag coefficient and with a jump in the frequency of eddy shedding. Bearman(1969) found that on one side of the cylinder the free shear layers underwent sufficient transition to be able to reattach onto the cylinder surface. The closed thin separated region was termed a separation _bubble_. The subsequent turbulent separation was considerably delayed in TrBL1, as seen in Fig. 1.10(b).
+
+The asymmetric single=bubble regime, TrBL1, terminates at higher \\(Re\\) with yet aother discontinuous fall in the drag and a jump in the shedding frequency when a second bubble is formed on the other side of the cylinder, Fig. 1.10(c). The symmetric _two-bubble regime_, TrBL2, represents an intricate combination of laminar separation, transition, reattachment and turbulent separation of the boundary layers on both sides of the cylinder. TrBL1 and TrBL2 regimes are very sensitive to disturbances and can be eliminated by a sufficiently rough surface and/or turbulent free stream.
+
+Further increase in \\(Re\\) brings transition to the primary laminar separation line in an irregular manner. This leads to the disruption and fragmentation of separation bubbles along the span of the cylinder. The irregularly fragmented separation lines prevent periodic eddy shedding, as seen in Fig. 1.10(d). The latter is the main feature of the _super-critical regime_, TrBL3.
+
+Roshko(1961) discovered that regular eddy shedding reappears at higher \\(Re\\) when the boundary layers are turbulent before separation all along the span. It is called _postcritical regime_. The postcritical TrBL4 regime is characterized by the transition in boundary layers being somewhere between the stagnation and separation lines. As \\(Re\\) increases the transition region advances towards the stagnation line asymptotically and hence the value of \\(Re\\) for the upper end of TrBL4 is hard to define.
