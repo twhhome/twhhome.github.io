@@ -60,3 +60,30 @@ An additional steady disturbance occurs in most experiments and it is not presen
 A disguised kind of disturbance is the _end effect_. In most tests both ends of the cylinder penetrate the boundary layers of the side walls as shown in Fig. 1.3(e) and the ensuing interaction affects the flow along the span of the cylinder. The _aspect ratio_ \\(L/D\\) is an ever-present influencing parameter in the simulation of a 'nominally' two-dimensional cylinder. The aspect ratio becomes a governing parameter for a short finite cylinder with a free end, see Fig. 1.3(f).
 
 A powerful disturbance which is capable of overriding all other disturbances is the transvers or streamwise oscillation of the cylinder beyond a threshold amplitude, Fig. 1.3(g) and Fig. 1.3(h), respectively. The amplitude and frequency of either free or forced oscillations may become the governing parameters within a certain range of the free stream velocity.
+
+# 1.4 Disturbance-free flow regimes
+The flow regimes are expected to be confined within a _fixed_ range of \\(Re\\) only for _genuinely_ disturbance free flows. All influencing parameters are kept as small as possible.
+
+The state of flow may be fully laminar L, any one of the three transitions TrW, TrSL, and TrBL, or fully turbulent T.
+
+# 1.5 Laminar state of flow, L
+There are at least three basic flow regimes:
+* L1: 'creeping' flow or _non-separation_ regime; \\(0<Re<4;to;5\\)
+* L2: steady separation or _closed near-wake_ regime; \\(4;to;5<Re<30;to;48\\)
+* L3: _periodic laminar_ regime; \\(30;to;48<Re<180;to;200\\)
+
+Creeping flow as seen in Fig. 1.4 is firmly attached to the surface of the cylinder all around the circumference. The trail of steady and symmetric laminar shear layers does not form a visible wake in the non-separation regime.
+
+![fig1.4](/img/flow-past-circular-cylinder/fig1.4.jpg)
+
+Separation initiates at \\(Re=4;to;5\\), when a distinct, steady, symmetric, and _closed near-wake_ is formed, as seen in Fig. 1.5. The free shear layers meet at the end of the near-wake at the confluence point. The reverse velocity along the axis of the near-wake is usually one order of magnitude lower than the free stream velocity. This weak recirculating flow in the near-wake is known as Föppl's twin _vortices_.
+
+![fig1.5](/img/flow-past-circular-cylinder/fig1.5.jpg)
+
+The elongated closed near-wake becomes unstable for \\(Re>30-48\\) and a sinusoidal oscillation of shear layers commences at the confluence point as seen in Fig. 1.6(a). The spontaneous onset of oscillation is sensitive to disturbances and \\(Re\_{osc}\\) depends on a particular experimental arrangement. The amplitude of the trail oscillation increases with rising \\(Re\\) and for \\(Re>45-65\\) the shear layers roll up at crests and troughs as seen in Fig. 1.6(b). The final product is a staggered array of laminar eddies as seen in Fig. 1.6(c).
+
+![fig1.6](/img/flow-past-circular-cylinder/fig1.6.jpg)
+
+![fig1.7](/img/flow-past-circular-cylinder/fig1.7.jpg)
+
+The procession of eddies in the laminar wake is called the _Kármán-Bénard eddy street_. The phenomenon is an instability of the laminar wake as suggest by Kovasznay(1949).
