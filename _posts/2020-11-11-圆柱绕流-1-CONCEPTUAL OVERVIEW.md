@@ -132,3 +132,25 @@ Roshko(1961) discovered that regular eddy shedding reappears at higher \\(Re\\) 
 
 # 1.9 Fully trubulent state of flow, T
 This state of flow is reached when all disturbed flow regions around the cylinder are turbulent. The flow past the cylinder in the T-state, and the associated drag and eddy shedding, are expected to be invariant provided that the influencing parameters are kept small. However, this becomes hardly possible because compressibility effects in air and cavitation in water cannot be avoided at very high \\(Re\\) and they become governing parameters.
+
+# 1.10 Variation of fluid-dynamic force
+\\[C=2F/\rhoV^2DL\tag{1.1}\\]
+ The fluctuating fluid-dynamic drag and lift forces are denoted by \\(C\_{D}'\\) and \\(C\_{L}'\\) and the time-averaged values by \\(C\_D\\) and \\(C\_L\\). The drag force is produced by viscous friction along the surface \\(C\_{Df}\\) and by an unsymmetric pressure distribution on the upstream and downstrean side of the cylinder \\(C\_{Dp}\\):
+ \\[C\_D=C\_{Df}+C\_{Dp}\tag{1.2}\\]
+
+ Figure 1.11 shows the variation of all six force coefficients across a whole \\(Re\\) range for an almost disturbance-free flow around a nominally two-dimensional cylinder. The viscous friction denoted by \\(C\_{Df}\\) is significant in the laminar state L but becomes negligible beyond the end of TrSL state of flow.
+
+![fig1.11](/img/flow-past-circular-cylinder/fig1.11.jpg)
+
+The three minimum values of \\(C\_{Dp}\\) correspnd to:
+1. the elongated, steady and closed near-wake at the end of L2;
+2. the longest length of the eddy formation region between TrSL1 and TrSL2;
+3. the separation bubbles on both sides of the cylinder in TrBL2.
+
+The discontinuous fall in \\(C\_D\\) and the appearance of mean \\(C\_L\\) occur at the beginning of the single-bubble regime. TrBL1 is followed by a discontinuous fall in \\(C\_D\\) and \\(C\_L\\) at the start of the two-bubble regime TrBL2. There is a wide variation of local \\(C\_D\\) along the span in the supercritical regime TrBL3.
+
+\\(C\_{L}'\\) is always greater than \\(C\_{D}'\\). The latter has two components: \\(C\_{DS}'\\), which is sinusoidal and \\(C\_{Dt}'\\) which is random and produced by turbulence. \\(C\_{L}'\\) also has two components: \\(C\_{LS}'\\) and \\(C\_{Lt}'\\)(expect in the L3 regime), \\(C\_{LS}'\\) is dominant in TrW2 and TrSL3 and vanishes in TrBL3. In TrBL4, \\(C\_{LS}'\\) is of the same order of magnitude as \\(C\_{Lt}'\\). The first \\(C\_{Lmax}'\\) seen in Fig. 1.11 corresponds to the shortest formation distance of laminar eddies from the cylinder, and the second \\(C\_{Lmax}'\\) is related to the shortest formation distance of turbulent eddies from the cylinder.
+
+![tab1.1](/img/flow-past-circular-cylinder/tab1.1.jpg)
+
+An epitome of flow states and regimes is given in Table 1.1.
