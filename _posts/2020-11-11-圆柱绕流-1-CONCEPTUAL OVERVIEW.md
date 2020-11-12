@@ -134,7 +134,7 @@ Roshko(1961) discovered that regular eddy shedding reappears at higher \\(Re\\) 
 This state of flow is reached when all disturbed flow regions around the cylinder are turbulent. The flow past the cylinder in the T-state, and the associated drag and eddy shedding, are expected to be invariant provided that the influencing parameters are kept small. However, this becomes hardly possible because compressibility effects in air and cavitation in water cannot be avoided at very high \\(Re\\) and they become governing parameters.
 
 # 1.10 Variation of fluid-dynamic force
-\\[C=2F/\rhoV^2DL\tag{1.1}\\]
+\\[C=2F/\rho V^2DL\tag{1.1}\\]
  The fluctuating fluid-dynamic drag and lift forces are denoted by \\(C\_{D}'\\) and \\(C\_{L}'\\) and the time-averaged values by \\(C\_D\\) and \\(C\_L\\). The drag force is produced by viscous friction along the surface \\(C\_{Df}\\) and by an unsymmetric pressure distribution on the upstream and downstrean side of the cylinder \\(C\_{Dp}\\):
  \\[C\_D=C\_{Df}+C\_{Dp}\tag{1.2}\\]
 
